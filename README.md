@@ -9,12 +9,12 @@ This project is a comprehensive data analytics portfolio case study investigatin
 * **Features Analyzed:** Game Title, Release Year, Genres, Categories, Price, Recommendations, Developer, and Publisher.
 
 ## 🛠️ Methodology & Process
-This project follows the six-step data analysis framework: Ask, Prepare, Process, Analyze, Share, and Act[cite: 1].
+This project follows the six-step data analysis framework: Ask, Prepare, Process, Analyze, Share, and Act.
 
-1. **Prepare & Process:** Cleaned the raw dataset using Python and Pandas by dropping records with missing critical metadata (genres, developer, publisher)[cite: 1]. The dataset was refined to 65,268 viable entries. Multi-tag string columns (like genres and categories) were exploded into lists for accurate aggregation.
+1. **Prepare & Process:** Cleaned the raw dataset using Python and Pandas by dropping records with missing critical metadata (genres, developer, publisher). The dataset was refined to 65,268 viable entries. Multi-tag string columns (like genres and categories) were exploded into lists for accurate aggregation.
 2. **Analyze:** Conducted exploratory data analysis (EDA) to evaluate total game counts, average pricing strategies, and volume of positive player reception across various segments.
 3. **Machine Learning (Prediction):** Engineered features to train a Random Forest Regressor model utilizing Scikit-Learn to test the predictive power of basic metadata on a game's total recommendations.
-4. **Share:** Developed sophisticated data visualizations using Matplotlib and Seaborn to communicate insights effectively to stakeholders[cite: 1].
+4. **Share:** Developed sophisticated data visualizations using Matplotlib and Seaborn to communicate insights effectively to stakeholders.
 
 ## 📊 Key Insights & Visualizations
 
